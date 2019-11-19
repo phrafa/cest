@@ -1,0 +1,25 @@
+{
+    "name": "betooliveirame/codeception-magento",
+    "description": "Codeception To Integrate with Magento",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://about.me/betooliveira",
+    "authors": [
+        {
+            "name": "Herbert de Oliveira",
+            "homepage": "http://about.me/betooliveira",
+            "email": "beto@webjump.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "codeception/codeception": "~2.2"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Magento\\Codeception\\": "src"
+        }
+    }
+}
