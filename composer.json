@@ -1,6 +1,6 @@
 {
-    "name": "betooliveirame/codeception-magento",
-    "description": "Codeception To Integrate with Magento",
+    "name": "phrafa/cest",
+    "description": "Codeception Magento",
     "type": "library",
     "license": "MIT",
     "homepage": "http://about.me/betooliveira",
