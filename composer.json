@@ -3,14 +3,6 @@
     "description": "Codeception Magento",
     "type": "library",
     "license": "MIT",
-    "homepage": "http://about.me/betooliveira",
-    "authors": [
-        {
-            "name": "Herbert de Oliveira",
-            "homepage": "http://about.me/betooliveira",
-            "email": "beto@webjump.com.br"
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6",

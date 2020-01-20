@@ -64,4 +64,20 @@ class Magento extends \Codeception\Module
 
         return $this->mocker;
     }
+
+    /**
+     * Run methods Private or Protected in Codeception Test Unit
+     *
+     * @param Object $class Instance Object
+     * @param $name Method Name
+     * @param array|null $params
+     * @return mixed
+     */
+    public static function invokeMethod(Object $class, $name, array $params = [])
+    {
+        $method = new \ReflectionMethod($class, $name);
+        $method->setAccessible(true);
+
+        return $method->invokeArgs($class, $params);
+    }
 }
